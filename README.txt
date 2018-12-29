@@ -1,5 +1,5 @@
 Written in Python 3.7 with Selenium for interfacing with the website via chromedriver.exe and Tkinter for GUI.
-Compiled with Pyinstaller.
+Compiled as a standalone with Pyinstaller.
 
 ----- COMPILING -----
 
