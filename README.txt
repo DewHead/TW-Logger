@@ -6,7 +6,7 @@ Compiled as a standalone with Pyinstaller.
 Before trying this out, please make sure you have Python 3.x. In Python 2.x the Tkinter commands are a bit different.
 You also need Selenium to be installed installed and to make sure that chromedirver is installed.
 
-This piece of code pulls variables from an external .py file (LoginInfo.py).
+This piece of code pulls the login info variables from an external .py file (LoginInfo.py).
 I had to trick Pyinstaller in order to keep the file external and not have it compiled. If it compiles, we won't be able to change the login info because it will be part of the .exe.
 If you decide to compile, make sure that the LoginInfo.py file is not in the the same folder as the code (TW Logger.py).
 After compiling, move the LoginInfo.py file back to the same root as the compiled software and you will still be able to pull from it.
